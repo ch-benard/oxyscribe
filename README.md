@@ -1,4 +1,4 @@
-# Oxyscribe MArkdown Editor
+# Oxyscribe Markdown Editor
 
 A desktop Markdown editor built with [Tauri v2](https://tauri.app/) (Rust backend) and TypeScript + Vite (frontend).
 
