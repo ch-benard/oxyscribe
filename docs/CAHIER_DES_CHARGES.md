@@ -1,4 +1,4 @@
-# Crabdown Editor — Cahier des charges
+# oxyscribe Editor — Cahier des charges
 
 Éditeur Markdown de bureau construit avec **Tauri v2** (Rust) et **TypeScript + Vite**.
 Plateforme cible prioritaire : Linux (Arch / Garuda, WebKitGTK).

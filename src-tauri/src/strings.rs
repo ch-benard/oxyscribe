@@ -6,7 +6,7 @@ use std::sync::atomic::{AtomicU8, Ordering};
 
 use serde::Deserialize;
 
-pub const APP_NAME: &str = "Crabdown Editor";
+pub const APP_NAME: &str = "Oxyscribe";
 pub const MARKDOWN_FILTER: &str = "Markdown";
 pub const HTML_FILTER: &str = "HTML";
 

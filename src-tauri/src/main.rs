@@ -2,5 +2,5 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 fn main() {
-    crabdown_editor_lib::run()
+    oxyscribe_lib::run()
 }

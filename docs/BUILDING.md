@@ -31,12 +31,12 @@ On the first AppImage build, the Tauri CLI downloads its own packaging tools (`l
 
 | File (in `src-tauri/target/release/`) | Description |
 |---|---|
-| `crabdown-editor` | Standalone executable (~9 MB). Uses the system WebKitGTK, so it runs on any machine with `webkit2gtk-4.1` installed. |
-| `bundle/appimage/crabdown-editor_<version>_amd64.AppImage` | Self-contained (~80 MB): embeds WebKitGTK, runs on most distributions without dependencies. |
+| `oxyscribe` | Standalone executable (~9 MB). Uses the system WebKitGTK, so it runs on any machine with `webkit2gtk-4.1` installed. |
+| `bundle/appimage/oxyscribe_<version>_amd64.AppImage` | Self-contained (~80 MB): embeds WebKitGTK, runs on most distributions without dependencies. |
 
 ```sh
-./src-tauri/target/release/crabdown-editor
-./src-tauri/target/release/bundle/appimage/crabdown-editor_0.1.0_amd64.AppImage
+./src-tauri/target/release/oxyscribe
+./src-tauri/target/release/bundle/appimage/oxyscribe_0.1.0_amd64.AppImage
 ```
 
 ### Troubleshooting
@@ -53,7 +53,7 @@ npm install
 npm run tauri build
 ```
 
-Produces the executable, a `.deb` (`bundle/deb/`), an `.rpm` (`bundle/rpm/`) and an AppImage (`bundle/appimage/`). Install the `.deb` with `sudo apt install ./src-tauri/target/release/bundle/deb/crabdown-editor_0.1.0_amd64.deb`.
+Produces the executable, a `.deb` (`bundle/deb/`), an `.rpm` (`bundle/rpm/`) and an AppImage (`bundle/appimage/`). Install the `.deb` with `sudo apt install ./src-tauri/target/release/bundle/deb/oxyscribe_0.1.0_amd64.deb`.
 
 ## Windows 10 / 11
 
@@ -86,9 +86,9 @@ On the first build, the Tauri CLI downloads WiX (for `.msi`) and NSIS (for `-set
 
 | File (in `src-tauri\target\release\`) | Description |
 |---|---|
-| `crabdown-editor.exe` | Standalone executable, no installation needed (requires WebView2). |
-| `bundle\msi\crabdown-editor_<version>_x64_en-US.msi` | MSI installer. |
-| `bundle\nsis\crabdown-editor_<version>_x64-setup.exe` | NSIS installer. |
+| `oxyscribe.exe` | Standalone executable, no installation needed (requires WebView2). |
+| `bundle\msi\oxyscribe_<version>_x64_en-US.msi` | MSI installer. |
+| `bundle\nsis\oxyscribe_<version>_x64-setup.exe` | NSIS installer. |
 
 The executables are not code-signed: Windows SmartScreen shows a warning on first launch (*More info → Run anyway*).
 
