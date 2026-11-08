@@ -590,20 +590,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "crabdown-editor"
-version = "0.1.0"
-dependencies = [
- "ammonia",
- "comrak",
- "serde",
- "serde_json",
- "tauri",
- "tauri-build",
- "tauri-plugin-dialog",
- "tauri-plugin-opener",
-]
-
-[[package]]
 name = "crc32fast"
 version = "1.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2504,6 +2490,20 @@ checksum = "9aa2b01e1d916879f73a53d01d1d6cee68adbb31d6d9177a8cfce093cced1d50"
 dependencies = [
  "futures-core",
  "pin-project-lite",
+]
+
+[[package]]
+name = "oxyscribe"
+version = "0.1.0"
+dependencies = [
+ "ammonia",
+ "comrak",
+ "serde",
+ "serde_json",
+ "tauri",
+ "tauri-build",
+ "tauri-plugin-dialog",
+ "tauri-plugin-opener",
 ]
 
 [[package]]

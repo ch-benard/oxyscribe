@@ -106,13 +106,13 @@ mod tests {
 
     #[test]
     fn window_title_marks_unsaved_changes() {
-        assert_eq!(window_title("a.md", false), "a.md — Crabdown Editor");
-        assert_eq!(window_title("a.md", true), "a.md* — Crabdown Editor");
+        assert_eq!(window_title("a.md", false), "a.md — Oxyscribe");
+        assert_eq!(window_title("a.md", true), "a.md* — Oxyscribe");
     }
 
     #[test]
     fn save_path_gets_a_default_extension() {
-        let dir = std::env::temp_dir().join(format!("crabdown-test-{}", std::process::id()));
+        let dir = std::env::temp_dir().join(format!("Oxyscribe-test-{}", std::process::id()));
         fs::create_dir_all(&dir).unwrap();
 
         assert_eq!(

@@ -155,9 +155,9 @@ export function selectStrings(language: Language): void {
   strings = translations[language];
 }
 
-export const appTitle = "Crabdown Editor";
+export const appTitle = "Oxyscribe - Yet another Markdown Editor";
 
-export const welcomeDocument = `# Welcome to Crabdown Editor
+export const welcomeDocument = `# Welcome to Oxyscribe Editor
 
 Type Markdown on the left; the preview on the right updates as you type.
 

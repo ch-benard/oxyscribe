@@ -1,4 +1,4 @@
-const STORAGE_KEY = "crabdown.editorWidth";
+const STORAGE_KEY = "oxyscribe.editorWidth";
 const MIN_PERCENT = 15;
 const MAX_PERCENT = 85;
 const KEYBOARD_STEP = 2;
